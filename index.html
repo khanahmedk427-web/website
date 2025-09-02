@@ -1,174 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>website</title>
-    <link rel="stylesheet" href="websitebrand.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+    <title>Website</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(pexels-anush-1229356.jpg) center/cover;
+            color: white;
+            font-family: "Story Script", sans-serif;
+            height: 1000px;
+
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 34px;
+
+        }
+
+        .left img {
+            width: 100px;
+            height: 80px;
+            filter: invert(100%);
+        }
+
+        .left h3 {
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        .mid {
+            /* border: 2px solid red; */
+            width: 44%;
+            margin: 34px auto;
+            display: block;
+        }
+
+        .right {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            right: 50px;
+            top: 34px;
+        }
+
+        .btn {
+            margin: 5px 10px;
+            padding: 4px 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: "Story Script", sans-serif;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: black;
+            color: white;
+            border: none;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 15px;
+        }
+
+        li a:hover {
+            text-decoration: underline;
+            color: rgb(245, 220, 220);
+
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 200px auto;
+            width: 30%;
+
+        }
+
+        .formgroup input{
+            width: 70%;
+            display: block;
+            margin: 20px auto ;
+            text-align: center;
+            font-size: 20px ;
+            border-radius: 10px ;
+            font-weight: bold;
+
+        }
+        .container h2{
+            text-align: center;
+            font-weight: bold;
+        }
+        .container .btn{
+            display: block;
+            background-color: black;
+            color: white;
+            width: 73%;
+            font-size: 30px ;
+            margin: 10px auto;
+            border: 2px solid white;
+        }
+        .container button:hover{
+            color: aqua;
+        }
+    </style>
 </head>
+
 <body>
-        <nav id="navbar">
-            <div id="logo">
-                <img src="fashion fiesta.png" alt="">
-            </div>
-            <ul>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>CONTACT</li>
-                <li>US</li>
+    <header class="header">
+        <div class="left">
+            <img src="/fitness-logo-template-design.png" alt="">
+            <h3>Ahmed Fitness</h3>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home </a></li>
+                <li> <a href="#">About Us </a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact Us </a></li>
             </ul>
-        </nav>
-
-        <section id="home">
-            <h1 id="h-primary">PERFUMES WEBSITE </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit amet officiis repellendus perferendis reprehenderit cumque sequi in recusandae hic.
-            </p>
-            <div class="btn2">
-                <button>SHOP NOW</button>
-            </div>
-            
-        </section>
-        
-        <div id="h11">MY FIRST WEBSITE</div>
-
-        <div class="container">
-            <div class="box">
-            <div class="image">
-                <img src="like.jpg" alt="">
-            </div>
-            <div class="content">
-            <p class="name">colour : abcd</p>
-            <p class="price">price : <del>3000</del>2000</p>
-            </div>
-              <div class="btn">
-                <button>Add to Cart</button>
-            </div>
-            </div>
-
-            <div class="box">
-             <div class="image">
-                <img src="beautiful-sunset-40.jpg" alt="">
-            </div>
-            <div class="content">
-               <p class="name">colour : abcd</p>
-            <p class="price">price : <del>3000</del>2000</p>
-            </div>
-              <div class="btn">
-                <button>Add to Cart</button>
-            </div>
-            </div>
-
-                  <div class="box">
-             <div class="image">
-                <img src="ahmed2.jpg" alt="">
-            </div>
-            <div class="content">
-               <p class="name">colour : abcd</p>
-            <p class="price">price : <del>3000</del>2000</p>
-            </div>
-              <div class="btn">
-                <button>Add to Cart</button>
-            </div>
-            </div>
-
-                  <div class="box">
-             <div class="image">
-                <img src="ahmed.jpg" alt="">
-            </div>
-            <div class="content">
-               <p class="name">colour : abcd</p>
-            <p class="price"><del>price : 3000</del>2000</p>
-            </div>
-            <div class="btn">
-                <button>Add to Cart</button>
-            </div>
-            </div>
-
-        </div>
-         <div class="container2">
-            <div class="box">
-            <div class="image">
-                <img src="like.jpg" alt="">
-            </div>
-            <div class="content">
-            <p class="name">colour : abcd</p>
-            <p class="price">price : <del>3000</del>2000</p>
-            </div>
-              <div class="btn">
-                <button>Add to Cart</button>
-            </div>
-            </div>
-
-            <div class="box">
-             <div class="image">
-                <img src="beautiful-sunset-40.jpg" alt="">
-            </div>
-            <div class="content">
-               <p class="name">colour : abcd</p>
-            <p class="price">price : <del>3000</del>2000</p>
-            </div>
-              <div class="btn">
-                <button>Add to Cart</button>
-            </div>
-            </div>
-
-                  <div class="box">
-             <div class="image">
-                <img src="ahmed2.jpg" alt="">
-            </div>
-            <div class="content">
-               <p class="name">colour : abcd</p>
-            <p class="price">price : <del>3000</del>2000</p>
-            </div>
-              <div class="btn">
-                <button>Add to Cart</button>
-            </div>
-            </div>
-
-                  <div class="box">
-             <div class="image">
-                <img src="ahmed.jpg" alt="">
-            </div>
-            <div class="content">
-               <p class="name">colour : abcd</p>
-            <p class="price"><del>price : 3000</del>2000</p>
-            </div>
-            <div class="btn">
-                <button>Add to Cart</button>
-            </div>
-            </div>
-
         </div>
 
-        <div class="con">
-            <div class="khan">
-                <p>contact</p>
-                <br>
-                <p>about us</p>
-                <br>
-                <p>phone</p>
-                <br>
-                <p>khanahmedk427@gmail.com</p>
-            </div>
-             <div class="khan">
-                <p>contact</p>
-                <br>
-                <p>about us</p>
-                <br>
-                <p>phone</p>
-                <br>
-                <p>khanahmedk427@gmail.com</p>
-            </div>
-             <div class="khan">
-                <p>contact</p>
-                <br>
-                <p>about us</p>
-                <br>
-                <p>phone</p>
-                <br>
-                <p>khanahmedk427@gmail.com</p>
-            </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn"> Contact Us </button>
         </div>
+
+    </header>
+    <div class="container">
+        <h2>Join The Best Gym Of Hyderabad Now</h2>
+        <form action="">
+           <div class="formgroup">
+            <input type="text" name="" id="name " placeholder="Enter Your Name ">
+            </div>
+            <div class="formgroup">
+            <input type="text" name="" id="name " placeholder="Enter Your Phone ">
+            </div>
+                <div class="formgroup">
+            <input type="text" name="" id="name " placeholder="Enter Your Email ">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+
 </body>
+
 </html>
