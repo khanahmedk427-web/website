@@ -4,169 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
-    <title>Website</title>
-    <style>
-        body {
-            margin: 0px;
-            padding: 0px;
-            background: url(pexels-anush-1229356.jpg) center/cover;
-            color: white;
-            font-family: "Story Script", sans-serif;
-            height: 1000px;
-
-
-        }
-
-        .left {
-            /* border: 2px solid red; */
-            display: inline-block;
-            position: absolute;
-            left: 34px;
-            top: 34px;
-
-        }
-
-        .left img {
-            width: 100px;
-            height: 80px;
-            filter: invert(100%);
-        }
-
-        .left h3 {
-            text-align: center;
-            margin-top: 0px;
-        }
-
-        .mid {
-            /* border: 2px solid red; */
-            width: 44%;
-            margin: 34px auto;
-            display: block;
-        }
-
-        .right {
-            /* border: 2px solid red; */
-            display: inline-block;
-            position: absolute;
-            right: 50px;
-            top: 34px;
-        }
-
-        .btn {
-            margin: 5px 10px;
-            padding: 4px 15px;
-            border-radius: 10px;
-            cursor: pointer;
-            font-family: "Story Script", sans-serif;
-            text-align: center;
-        }
-
-        .btn:hover {
-            background-color: black;
-            color: white;
-            border: none;
-        }
-
-        .navbar {
-            display: inline-block;
-        }
-
-        li {
-            display: inline-block;
-            font-size: 20px;
-        }
-
-        li a {
-            color: white;
-            text-decoration: none;
-            padding: 34px 15px;
-        }
-
-        li a:hover {
-            text-decoration: underline;
-            color: rgb(245, 220, 220);
-
-        }
-
-        .container {
-            border: 2px solid white;
-            margin: 200px auto;
-            width: 30%;
-
-        }
-
-        .formgroup input{
-            width: 70%;
-            display: block;
-            margin: 20px auto ;
-            text-align: center;
-            font-size: 20px ;
-            border-radius: 10px ;
-            font-weight: bold;
-
-        }
-        .container h2{
-            text-align: center;
-            font-weight: bold;
-        }
-        .container .btn{
-            display: block;
-            background-color: black;
-            color: white;
-            width: 73%;
-            font-size: 30px ;
-            margin: 10px auto;
-            border: 2px solid white;
-        }
-        .container button:hover{
-            color: aqua;
-        }
-    </style>
+    <title>Cv</title>
+    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" m href="">
 </head>
 
 <body>
-    <header class="header">
-        <div class="left">
-            <img src="fitness-logo-template-design.png" alt="">
-            <h3>Ahmed Fitness</h3>
+    <div class="maindiv">
+        <h1>CV</h1>
+        <div class="leftaside">
+            <div id="logo">
+                <img src="ahmed.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>About Me </h2>
+                <p><b>NAME</b>: Ahmed Ali Khan </p>
+                <p><b>CONTACT</b>: 03352714395</p>
+                <p><b>EMAIL</b>: khanahmedk427@gmail.com</p>
+                <p><b>ADRESS</b>: House no 340 block b1 <br>
+                Latifabad n0 8 Hyderabd </p>
+                <br>
+                <h2>Skills </h2>
+                <ul>
+                    <li>Ms Office</li>
+                    <li>PhotoShop</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>java Script </li>
+                     
+
+                </ul>
+                <a href="https://wa.me/923453584362" target="_blank" class="btn">
+                    <i class="fab fa-whatsapp"></i> WhatsApp Me
+                </a>
+            </div>
         </div>
 
-        <div class="mid">
-            <ul class="navbar">
-                <li> <a href="#" class="active">Home </a></li>
-                <li> <a href="#">About Us </a></li>
-                <li> <a href="#">Fitness Calculator</a></li>
-                <li> <a href="#">Contact Us </a></li>
+        <div class="rightaside">
+            <ul class="right">
+                <h2>Education</h2>
+           <li> Nursery to 8– New Sadia Cambridge High School ,Hyderabad (2010 – 2021)</li>
+            <li>Matriculation (Computer-Science) – Govt. Boys High School, Hyderabad (2023)</li>
+              <li>Intermediate (Computer-Science) – Degree College Uniit no 11 <br>Latifabad, hyderabad (2023– 2025)</li>
             </ul>
+
+            <ul class="right2">
+                <h2 id="tand">Work Experience</h3>
+                <li>Front-End Intern – XYZ Software House (2024 – Present)</li>
+                <li>Assisted in creating responsive web pages.</li>
+                <li>Collaborated with senior developers on live projects.</li>
+                <li>Fixed UI bugs and optimized performance.</li>
+            </ul>
+
+                <ul class="right2">
+                <h2 id="tang">Hobbies</h2>
+                <li>Coding & Problem Solving</li>
+                <li>Web Design / Graphic Design</li>
+                <li>Gaming (Strategic / Esports)</li>
+            </ul>
+
+               <ul class="right2">
+                <h2 id="tant">Language</h2>
+              <li>ENglish</li>
+              <li>Urdu</li>
+            </ul>
+
+           
         </div>
 
-        <div class="right">
-            <button class="btn">Call Us Now</button>
-            <button class="btn"> Contact Us </button>
-        </div>
 
-    </header>
-    <div class="container">
-        <h2>Join The Best Gym Of Hyderabad Now</h2>
-        <form action="">
-           <div class="formgroup">
-            <input type="text" name="" id="name " placeholder="Enter Your Name ">
-            </div>
-            <div class="formgroup">
-            <input type="text" name="" id="name " placeholder="Enter Your Phone ">
-            </div>
-                <div class="formgroup">
-            <input type="text" name="" id="name " placeholder="Enter Your Email ">
-            </div>
-            <button class="btn">Submit</button>
 
-        </form>
+
     </div>
-
 </body>
-
 
 </html>
